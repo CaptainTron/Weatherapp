@@ -1,0 +1,16 @@
+- App Build by Vaibhav Yadav
+- App Completion time approx 5-6 hr
+- Implemented API calls and used it in the function
+- Understand the API and its use in the function
+
+About This App
+This is a Weather app that takes city name from the input box,and when you press Enter key or click search button you will get result(in about 1400ms-1800ms).
+It will show city name, today's condition, temp, temp_min, temp_max, humidity and wind speed.
+
+About Javascript Code Implementation
+I've first created 'getweatherinfo' function  that will implement API calls of the particular city we search for in search box and will return promise.
+There is 'searchcity' function that will call 'getwheatherinfo' function and will pass cityname as parameter, that particular city we want to search for, and from response we get  will pass to 'showdata' function that will show result in DOM.
+
+At last I've used addEventListener method that will listen 'keydown' event in DOM and check wheather "Enter" key pressed or not, if pressed it will immeditly call 'searchcity()' function that will search for particular city.
+
+-------------------- END ----------------------- 
