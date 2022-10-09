@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+</head>
+<body>
+    <!-- Main body starts starts here -->
+    <div class="container images" >
+        <div class="container-box">
+            <p class="wheatherapp">मौसम देखो 😉</p>
+            <div class="contentbox">
+                <input type="text" id="inputcity" placeholder="Gorakhpur....">
+                <!-- onclick method to callthe searchcity function the  -->
+                <button id="searchlocation" onclick="searchcity()">Search</button>
+            </div>
+            <div class="showinfo">
+                <ul class="info">
+                    <li>Location : <span class="infocolor" id="location">--</span></li>
+                    <li>Today's Condition : <span class="infocolor" id="cond"></span></li>
+                    <li>Temp : <span class="infocolor" id="temp">-- </span></li>
+                    <li>Min-Temp : <span class="infocolor" id="mintemp">-- </span></li>
+                    <li>Max-Temp : <span class="infocolor" id="maxtemp">-- </span></li>
+                    <li>Humidity : <span class="infocolor" id="humi">--</span></li>
+                    <li>Wind Speed : <span class="infocolor" id="windspeed">--</span></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+<footer>Made by Vaibhav Yadav with ❤❤</footer>
+    <script src="weatherjava.js"></script>
+</body>
+</html>
